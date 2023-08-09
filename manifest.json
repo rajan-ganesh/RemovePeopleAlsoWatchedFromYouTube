@@ -1,0 +1,18 @@
+{
+  "name": "Block People Also Watched on YouTube",
+  "description": "Removes the \"People also Watched\" Section from YouTube's search page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/ExtensionIcon.png",
+    "32": "images/ExtensionIcon.png",
+    "48": "images/ExtensionIcon.png",
+    "128": "images/ExtensionIcon.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
